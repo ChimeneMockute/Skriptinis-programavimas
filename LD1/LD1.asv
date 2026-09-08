@@ -1,0 +1,21 @@
+%
+% Chimene Mockute EEf-25/2 2026-09-08
+% Paprastas skriptas
+%
+
+x=1:32;
+y=x.^2;
+
+plot (x,y, 'o-r', x, y/3, 'xb')
+title ('Dvi funkcijos')
+xlabel ('X-ai')
+ylabel ('F_1 [-o-]  |   F_2 [-x-]')
+
+% 8 uzduotis:
+% 1 budas - help sin; help plot; help title;
+% 2 budas - doc sin; doc plot; doc title;
+% 3 budas - paieskos laukelyje;
+
+% 9 uzduotis:
+% 1) linspace naudojimo budai: 
+% 
